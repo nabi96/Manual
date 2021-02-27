@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaXAML.MainPage">
+
+    <StackLayout>
+
+        <Label  Text="Bienvenidos a la App Stock 360"
+                BackgroundColor="Black"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" />
+
+        <Image Source="https://res.cloudinary.com/walmart-labs/image/upload/w_225,dpr_auto,f_auto,q_auto:good/mg/gm/3pp/asr/bb6f3375-b9f5-4345-ba08-9b83737bf40e.58b15b2afbedbbfcd5e067566cb772e1.png"
+               Aspect="AspectFit"
+               HorizontalOptions="Center" />
+
+        <Entry Placeholder="Escribe tu nombre"/>
+
+        <Button Text="Click Me!"
+                Font="Large" />
+        
+        <WebView Source="https://www.mercadolibre.com.mx/"
+         VerticalOptions="FillAndExpand" />
+    
+    </StackLayout>
+
+</ContentPage>
