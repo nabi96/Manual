@@ -6,7 +6,7 @@
                 padding: 5%;}
             #Panel{color: rgba(63, 19, 19, 0.863);
                     background-color: cornsilk;
-                    height: 1000px;
+                    height: 1200px;
                     width: 600px;
                     box-shadow: 10px 10px black;
                     padding: 5%;
@@ -46,9 +46,7 @@
             <center></a><img src="https://i.ibb.co/yYPW48v/imageonline.png"></a></center>
             </ul>
             
-            
-
-            <h3>otra cosa</h3>
+            <h3>Otra cosa</h3>
             
             <ul>
                 <li><strong>problema:</strong>solucion......................</li>
@@ -57,4 +55,25 @@
                 <li><strong>problema:</strong>solucion......................</li>
             
             </ul>   
+
+            <h3 id="contactar">Contactar</h3>
+
+            <center><label for="topic">Tema: </label>
+            <select id="topic">
+            <option>-- Elige un tema --</option>
+            <option>Consulta</option>
+            <option>Propuesta</option>
+            <option>Otro</option>
+            </select>
+
+            <label for="subject">Correo de contacto: </label>
+            <input id="subject" type="text" required="">
+            <br>
+            <br>
+            <label for="body">Mensaje:</label>
+            <textarea id="body" required=""></textarea>
+            
+            <div id="bloquearboton">
+                <br>
+            <button onclick="alert('Mensaje Enviado!');">Enviar</button></center>
     </body>
